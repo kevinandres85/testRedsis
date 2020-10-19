@@ -47,11 +47,19 @@ Encontrar el producto de a*b*c de esta triple pitagórica en especifico.
 
 # PRUEBA 3
 
-Desarrolle un cliente REST que consuma el siguiente WEBService, **OPCIONALMENTE** presente el resultado en un Frontend html basico.
+Desarrolle un cliente REST que consuma el siguiente WebService, **OPCIONALMENTE** presente el resultado en un Frontend html basico.
  
 - Documentación de consumo: https://securetransfer.redsis.com/rest/forms/v1/teamGoAny/payload?help=true 
 - User: ingresoRedsis
 - Password: Qwerty0909$
+
+# PRUEBA 4
+
+Desarrolle un programa que contenga un método, de nombre escribirMes, que reciba por parámetro el número correspondiente a un mes del año y la letra correspondiente al día de la semana en que cae el día 1 de ese mes (‘L’ para lunes, ‘M’ para martes, ‘X’ para miércoles…). El método escribirá en un archivo un calendario para ese mes, que estará formado por todos los días del mes seguidos de la letra correspondiente al día de la semana en que caen. El método comprobará que los parámetros recibidos son correctos y obtendrá el nombre, concatenando a la palabra mes el número de mes recibido como extensión.
+
+Ejemplo: Si el método recibe el valor 3 (que representa el mes de marzo), y la letra ‘M’, indicando que el 1 de marzo es martes, el método obtendrá el nombre de archivo “mes3.txt” y lo escribirá con un calendario así:
+
+1M2X3J4V5S…………………….31J
 
 
 
